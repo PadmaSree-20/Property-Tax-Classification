@@ -1,0 +1,53 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment folders
+env/
+venv/
+ENV/
+.venv/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and output
+*.log
+*.out
+
+# Ignore data files (optional)
+*.csv
+*.tsv
+*.xlsx
+*.json
+
+# You can manually include small data files later if needed by removing them from here
+
+# Ignore model files / binaries
+*.h5
+*.pkl
+*.joblib
+*.pt
+*.onnx
+
+# Ignore environment and dependency files
+.env
+.env.*
+
+# Ignore zipped files and large archives
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore generated plots or images (optional)
+*.png
+*.jpg
+*.svg
+
+# VS Code settings (optional)
+.vscode/
